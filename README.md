@@ -1,59 +1,46 @@
-Problema da Mochila com Algoritmos Genéticos 🎒🧬✨
+# Problema da Mochila com Algoritmos Genéticos 🎒🧬✨
 
-Descrição do Projeto 🚀📝💡
+## Descrição do Projeto 🚀📝💡
 
-Este projeto implementa uma solução para o Problema da Mochila utilizando partes de Algoritmos Genéticos. O objetivo é selecionar itens que maximizem o valor total sem exceder um limite de peso. O problema é resolvido utilizando operações de cruzamento e mutação genética.
+Este projeto implementa uma solução para o **Problema da Mochila** utilizando **Algoritmos Genéticos**. O objetivo é selecionar itens que maximizem o valor total sem exceder um limite de peso. O problema é resolvido utilizando operações de cruzamento e mutação genética.
 
-Estrutura do Projeto 📁🔧🖥️
+## Estrutura do Projeto 📁🔧🖥️
 
-main.cpp: Arquivo principal que gerencia a entrada e a saída dos dados.
+- **main.cpp**: Arquivo principal que gerencia a entrada e a saída dos dados.
+- **binario.h / binario.cpp**: Funções para manipulação de bits.
+- **genetico.h / genetico.cpp**: Implementa os operadores genéticos e a função de avaliação.
+- **TP1.pdf**: Documento com a descrição do problema e as regras de implementação.
 
-binario.h / binario.cpp: Funções para manipulação de bits.
+## Funcionalidades Implementadas 🛠️⚙️📌
 
-genetico.h / genetico.cpp: Implementa os operadores genéticos e a função de avaliação.
+1. **Função de Avaliação**: Verifica se uma solução é válida e calcula seu valor total.
+2. **Cruzamento Genético**:
+   - **Ponto Único**: Combina bits de duas soluções.
+   - **Aritmético (AND)**: Cria uma nova solução baseada na operação AND bit a bit.
+3. **Mutação**:
+   - **Simples**: Altera um bit da solução.
+   - **Dupla**: Altera dois bits da solução.
+4. **Manipulação de Bits**:
+   - Ligar, desligar e testar bits.
+   - Operadores AND e OR bit a bit.
+   - Extração de bits altos e baixos.
 
-TP1.pdf: Documento com a descrição do problema e as regras de implementação.
+## Como Executar ▶️🖥️⚡
 
-Funcionalidades Implementadas 🛠️⚙️📌
+1. Compile o projeto com um compilador **g++**:
+   ```bash
+   g++ main.cpp binario.cpp genetico.cpp -o mochila
+   ```
+2. Execute o programa:
+   ```bash
+   ./mochila
+   ```
+3. Insira seis valores inteiros entre **0 e 65535** conforme solicitado.
+4. O programa exibira as soluções iniciais, novas soluções geradas e os resultados da avaliação.
 
-Função de Avaliação: Verifica se uma solução é válida e calcula seu valor total.
+## Exemplo de Saída 📊📜✅
 
-Cruzamento Genético:
-
-Ponto Único: Combina bits de duas soluções.
-
-Aritmético (AND): Cria uma nova solução baseada na operação AND bit a bit.
-
-Mutação:
-
-Simples: Altera um bit da solução.
-
-Dupla: Altera dois bits da solução.
-
-Manipulação de Bits:
-
-Ligar, desligar e testar bits.
-
-Operadores AND e OR bit a bit.
-
-Extração de bits altos e baixos.
-
-Como Executar ▶️🖥️⚡
-
-Compile o projeto com um compilador g++:
-
-g++ main.cpp binario.cpp genetico.cpp -o mochila
-
-Execute o programa:
-
-./mochila
-
-Insira seis valores inteiros entre 0 e 65535 conforme solicitado.
-
-O programa exibira as soluções iniciais, novas soluções geradas e os resultados da avaliação.
-
-Exemplo de Saída 📊📜✅
-
+```
 Entre com 6 soluções iniciais (números entre 0 e 65535):
 60504 25000 12329 38054 1259 732
 
@@ -68,12 +55,12 @@ Resultado da Avaliação
 -----------------------
 Nova geração de soluções...
 ...
+```
 
-Autor ✍️👨‍💻📚
+## Autor ✍️👨‍💻📚
 
-Lucas Tayrone Moreira Ribeiro
+**Lucas Tayrone Moreira Ribeiro**
 
-Licença 📜🔓✅
+## Licença 📜🔓✅
 
 Este projeto é distribuído sob a licença MIT.
-
