@@ -2,7 +2,7 @@ Problema da Mochila com Algoritmos Genéticos 🎒🧬✨
 
 Descrição do Projeto 🚀📝💡
 
-Este projeto implementa uma solução para o Problema da Mochila utilizando Algoritmos Genéticos. O objetivo é selecionar itens que maximizem o valor total sem exceder um limite de peso. O problema é resolvido utilizando operações de cruzamento e mutação genética.
+Este projeto implementa uma solução para o Problema da Mochila utilizando partes de Algoritmos Genéticos. O objetivo é selecionar itens que maximizem o valor total sem exceder um limite de peso. O problema é resolvido utilizando operações de cruzamento e mutação genética.
 
 Estrutura do Projeto 📁🔧🖥️
 
